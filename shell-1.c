@@ -1,5 +1,8 @@
 //SHELL SEM O PIPE (SEM ENCADEAMENTO DE COMANDO FUNCIONANDO)
-
+/* NO SHELL RODAR:
+gcc -Wall -o sheel-1 shell-1.c
+./shell-1 ls
+*/
 #include<stdio.h>
 #include<unistd.h>
 #include<errno.h>
