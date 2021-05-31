@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
     }
 }
 
-void parser(int argc, char *argv[], char allString[100][100])
+void parser(int argc, char *argv[], char allString[100][100])//no da amanda tem um [] adicional formando um vetor tridimensional
 {
     int numbersOfComands = 0, params = 0;
     char* p = NULL;

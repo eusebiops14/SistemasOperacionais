@@ -11,18 +11,10 @@
 #define LISTEN 1                              
 #define READ 0 
 
-void verif(char **teste, int size, int cPipe[], int checkEnd){
+void verif(char *teste[], int size, int cPipe[], int checkEnd){
   int i=1;
-  printf("\n\ncalled?\n\n");
-  //printf("size:%d  check:%d", size, checkPipe);
-  /*while(i<size && i!=checkPipe){
-    if((i<checkPipe) || (i>checkPipe)){
-        printf("i:%d // %s \n",i, teste[i]);
-        //exe(...)
-        //chama execução passando os parâmetros que estão separados...
-    }
-    i++;
-  }*/printf("\n================\n");
+  
+  printf("\n================\n");
     printf("size: %d\n", size);
     printf("checkEnd: %d", checkEnd);
     printf("\n================\n");
