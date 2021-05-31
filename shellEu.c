@@ -29,7 +29,7 @@ void verif(char *teste[], int size, int cPipe[], int checkEnd){
       }
       printf("\n----------------\n");
     }
-  printf("\n\ncalled!");
+  
 }
 
 
